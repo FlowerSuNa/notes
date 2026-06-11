@@ -55,6 +55,7 @@ Claude가 수행하는 작업:
 | `todo` | `projects/<name>/todos.md` |
 | `idea` | `ideas/<slug>.md` |
 | `spec` | `projects/<name>/specs/<slug>.md` |
+| `routine` | `routines.md` 해당 주기 섹션 |
 | `skip` | 이동 없음 |
 
 ### 4단계 — 대시보드 (`/대시보드`, 필요할 때만)
@@ -68,6 +69,7 @@ Claude가 수행하는 작업:
 |------|------|
 | `/정리` | inbox 스캔 → 요약 가공 → processed/ 저장 |
 | `/분류` | processed/ 대기 파일 → 분류 확인 → 최종 저장 |
+| `/루틴 {내용}` | 루틴 항목을 분석해 routines.md 에 추가 |
 | `/대시보드` | dashboard.html 재생성 + 브라우저로 열기 |
 
 ---
