@@ -1,0 +1,53 @@
+# ══════════════════════════════════════════
+# 메모 내용 — 개인 데이터이므로 추적하지 않음
+# ══════════════════════════════════════════
+
+# inbox 원본 메모 (README는 유지)
+inbox/*.md
+inbox/*.txt
+!inbox/README.md
+
+# inbox 아카이브 (처리 완료된 원본)
+inbox/archive/*
+!inbox/archive/.gitkeep
+
+# 가공 중간 결과물
+processed/*.md
+!processed/.gitkeep
+
+# 회의록
+projects/**/meetings/*.md
+
+# 할 일 목록
+projects/**/todos.md
+
+# 스펙 문서
+projects/**/specs/*.md
+
+# 아이디어 노트
+ideas/*.md
+!ideas/.gitkeep
+
+# 생성된 대시보드 (실제 프로젝트 데이터 포함)
+dashboard.html
+
+# ══════════════════════════════════════════
+# OS / 에디터 / Python
+# ══════════════════════════════════════════
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.swp
+*.swo
+*~
+
+.vscode/
+.idea/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
