@@ -15,14 +15,8 @@ inbox/archive/*
 processed/*.md
 !processed/.gitkeep
 
-# 회의록
-projects/**/meetings/*.md
-
-# 할 일 목록
-projects/**/todos.md
-
-# 스펙 문서
-projects/**/specs/*.md
+# 프로젝트 하위 모든 md 파일
+projects/**/*.md
 
 # 아이디어 노트
 ideas/*.md
